@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100;400;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+    font-family: 'Roboto', sans-serif !important;
+    font: 14px sans-serif;
+    color: #1e2432;
+    height: 100%;
+    margin: 0;
+}
+
+.main-container {
+    /* background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.418) ), url('../public/background-01.jpg'); */
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.418) ), url('../public/bg/04.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.main-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.search {
+    font-size: 14px;
+    outline: none;
+    padding: 20px 60px;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 40px;
+    box-shadow: 4px 4px 15px rgba(15, 15, 15, 0.2);
+    background-color: #ffffff80;
+}
+
+.city {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 50px;
+    border-radius: 20px;
+    /* background: rgba(250, 250, 250, 0.85); */
+    box-shadow: 6px 6px 20px rgba(15, 15, 15, 0.2);
+    background-color: #ffffff80;
+    /* backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px); */
+}
+
+p {
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.city-temp {
+    font-size: 5rem;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #1e2432;
+    text-align: center;
+}
+
+.city sup {
+    font-size: 0.5em;
+}
+
+.city-name {
+    font-size: 34px;
+    margin: 10px 10px;
+}
+
+.city-name sup {
+    padding: 4px 9px;
+    /* margin-left: 0.2em; */
+    margin-left: 4px;
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+    /* background: #ff8c00; */
+    /* background: #ff920c; */
+    background: #ec6e4c;
+}
+
+.city-icon {
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.autor {
+    position: absolute;
+    top: 15px;
+    text-transform: none;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif !important;
+    color: #303030;
+}
+
+@media (max-width: 1024px) {
+    .search {
+        padding: 20px 6%;
+    }
+
+    .city {
+        padding: 40px 6%;
+    }
+}
+
+@media (max-width: 600px) {
+    .search {
+        padding: 20px 15%;
+        font-size: 20px;
+    }
+
+    .city {
+        padding: 40px 20%;
+    }
+}
+
+@media (max-width: 460px) {
+    .search {
+        padding: 20px 10%;
+    }
+    
+    .city {
+        padding: 40px 15%;
+    }
+    
+    .city-name {
+        font-size: 32px;
+    }
+
+    .city-temp {
+        font-size: 70px;
+    }
+
+    .autor {
+        font-size: 20px;
+    }
+}
