@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import { fetchWeather } from "./services/fetchWeather"
 import "./App.css"
 
-export const App = () => {
+const App = () => {
   const [query, setQuery] = useState("")
   const [weather, setWeather] = useState({})
 
