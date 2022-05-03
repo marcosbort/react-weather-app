@@ -1,7 +1,7 @@
 Weather App
 
 Run on server:
-mb-weather-app.netlify.app
+https://mb-weather-app.netlify.app
 
 # Getting Started with Create React App
 
