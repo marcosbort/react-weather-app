@@ -1,7 +1,10 @@
-Weather App
+# Weather App
 
-Run on server:
-https://mb-weather-app.netlify.app
+Running\
+<a href="https://mb-weather-app.netlify.app" target="_blank">weather-app.netlify.app</a>
+
+## Screenshots
+<img width="1440" alt="Screen Shot 2022-09-07 at 13 44 49" src="https://user-images.githubusercontent.com/86331998/188934475-088e45ff-edcf-43da-ba7c-09ad36779141.png">
 
 # Getting Started with Create React App
 
